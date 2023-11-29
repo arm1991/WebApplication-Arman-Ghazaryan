@@ -1,0 +1,56 @@
+.home-section-one {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-areas:
+    "hello"
+    "content"
+    "footer";
+
+  &-content {
+    align-self: center;
+    grid-area: content;
+    display: grid;
+    gap: 3rem;
+    padding: 3rem;
+
+    &-title {
+      color: #fff;
+      font-size: 4rem;
+      font-weight: 400;
+    }
+
+    &-description {
+      font-weight: 400;
+      color: #fff;
+    }
+
+    &-button {
+      width: 15%;
+      padding: 1rem 1rem;
+      cursor: pointer;
+      border: none;
+      opacity: 0.8;
+      background-color: #fff;
+      color: #000;
+      font-size: 1.2rem;
+      word-spacing: 1px;
+    }
+
+    &-button:hover {
+      opacity: 1;
+    }
+  }
+
+  &-footer {
+    padding: 3rem;
+    align-self: flex-end;
+    display: flex;
+    gap: 2rem;
+    grid-area: footer;
+  }
+}

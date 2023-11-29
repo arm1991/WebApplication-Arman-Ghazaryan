@@ -1,0 +1,33 @@
+.home-section-two-content-item {
+  margin: 5rem 0 10rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  align-items: center;
+  box-shadow: 0 0 1rem 1px;
+  cursor: pointer;
+
+  &-icon {
+    font-size: 3rem;
+  }
+
+  &-title {
+    font-size: 2rem;
+  }
+
+  &-description {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+.home-section-two-content-item:hover {
+  opacity: 0.7;
+}
+
+.home-section-two-content-item:active {
+  opacity: 0.8;
+}

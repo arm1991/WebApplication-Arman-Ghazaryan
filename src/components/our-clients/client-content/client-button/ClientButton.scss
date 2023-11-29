@@ -1,0 +1,23 @@
+.our-clients-content-button {
+  margin-top: 3rem;
+  right: 5rem;
+  > button {
+    border-radius: 5rem;
+    position: fixed;
+    padding: 2rem 3rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+  }
+
+  > button:hover {
+    opacity: 0.8;
+  }
+
+  > button:active {
+    opacity: 0.7;
+  }
+}

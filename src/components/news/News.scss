@@ -1,0 +1,37 @@
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 10rem;
+
+  &-item {
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 1rem 3px;
+    width: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &-title {
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+      font-size: 1.5rem;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    &-title:hover {
+      opacity: 0.6;
+    }
+
+    &-title:active {
+      opacity: 0.9;
+    }
+
+    &-body {
+      font-size: 1rem;
+    }
+  }
+}

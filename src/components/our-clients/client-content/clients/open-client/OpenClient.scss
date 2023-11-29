@@ -1,0 +1,27 @@
+.users-opened-user {
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  gap: 4rem;
+  box-shadow: 0 1rem 1rem rgb(182, 182, 182);
+  border-radius: 1rem;
+
+  &-image {
+    overflow: hidden;
+    > img {
+      border-radius: 50%;
+    }
+  }
+
+  &-info {
+    > h1 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.users-closed-user:hover {
+  box-shadow: 0 0rem 2rem rgb(182, 182, 182);
+}
