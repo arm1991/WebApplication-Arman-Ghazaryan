@@ -1,5 +1,5 @@
-import { headerImg } from "../../config/config";
 import "./Header.scss";
+import { headerImg } from "../../config/config";
 import NavLeft from "./nav-left/NavLeft";
 import NavRight from "./nav-right/NavRight";
 import Links from "./links/Links";
